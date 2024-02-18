@@ -14,107 +14,61 @@
 
   <main class="flex flex-col min-h-screen">
 
-
-    <header id="welcome" class="flex items-center justify-between p-6 bg-gray-900 text-white">
-      <h1 class="text-2xl font-bold">St.Croix Sports</h1>
-      <nav class="flex gap-6">
-        <a class="hover:underline" href="https://www.Instagram.com/stcroixsports" target="_blank" rel="noopener noreferrer">
-          <img
-          src="Instagram.png"
-          alt="Instagram icon"
-          class="mb-2"
-          width="20"
-          height="20"
-          style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-        </a>
-        <a class="hover:underline" href="https://www.Facebook.com/stcroixsports" target="_blank" rel="noopener noreferrer">
-          <img
-          src="Facebook.png"
-          alt="Facebook Icon"
-          class="mb-2 mr-4"
-          width="20"
-          height="20"
-          style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-        </a>
-        <a class="hover:underline" href="LandingPage.html">
-          Home
-        </a>
-        <a class="hover:underline" href="SkateSharpening.html">
-          Skate Sharpening
-        </a>
-        <a class="hover:underline" href="AboutUs.html">
-          About Us/Contact
-        </a>
-
-
-
-      </nav>
-    </header>
-
-
-    <section class="bg-hockey-store flex flex-col items-center justify-center bg-gray-800 text-white text-center h-screen-1/2">
-      <h2 class="text-4xl font-bold mb-4">Welcome to St.Croix Sports</h2>
-      <p class="text-lg mb-2">Your one-stop shop for all your hockey needs.</p>
-      <a href="AboutUs.html" class="inline-block">
-        <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-white text-black px-8 py-2 rounded">
-          About Us
-        </button>
+  <header id="welcome" class="flex items-center justify-between p-6 bg-gray-900 text-white sm:flex-col sm:items-center">
+    <h1 class="text-2xl font-bold mb-4 sm:mb-2">St.Croix Sports</h1>
+    <nav class="flex gap-4 sm:flex-col sm:items-center">
+      <a class="hover:underline" href="https://www.Instagram.com/stcroixsports" target="_blank" rel="noopener noreferrer">
+        <img src="Instagram.png" alt="Instagram icon" class="mb-2" width="20" height="20" style="aspect-ratio: 200 / 200; object-fit: cover;" />
       </a>
-      <p class="pt-32"
+      <a class="hover:underline" href="https://www.Facebook.com/stcroixsports" target="_blank" rel="noopener noreferrer">
+        <img src="Facebook.png" alt="Facebook Icon" class="mb-2 mr-4" width="20" height="20" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+      </a>
+      <a class="hover:underline" href="LandingPage.html">Home</a>
+      <a class="hover:underline" href="SkateSharpening.html">Skate Sharpening</a>
+      <a class="hover:underline" href="AboutUs.html">About Us/Contact</a>
+    </nav>
+  </header>
+
+
+
+  <section class="bg-hockey-store flex flex-col items-center justify-center bg-gray-800 text-white text-center h-screen-1/2 sm:px-4">
+    <h2 class="text-4xl font-bold mb-4 sm:text-2xl">Welcome to St.Croix Sports</h2>
+    <p class="text-lg mb-2 sm:text-base">Your one-stop shop for all your hockey needs.</p>
+    <a href="AboutUs.html" class="inline-block">
+      <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-white text-black px-8 py-2 rounded sm:px-4 sm:py-1">
+        About Us
+      </button>
+    </a>
+    <p class="pt-32 sm:pt-16 sm:text-sm">
       Photo by <a href="https://unsplash.com/@chrisliverani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Liverani</a> on <a href="https://unsplash.com/photos/red-and-white-hockey-goal-5oZ9uVx7buc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      </p>
-    </section>
+    </p>
+  </section>
 
-    <section id="skateSharpening" class="bg-gradient-to-r from-gray-200 via-gray-100 to-gray-100... text-center">
-      <h3 class="text-2xl font-bold mb-0 p-6">What We Do</h3>
-      <p class="text-2x2 mb-6 p-0">
-        Founded in May 2014, St. Croix Sports is western Wisconsin's leading hockey destination, located at 1830 Webster Street in Hudson, near the Hudson Sports and Civic Center. We specialize in offering a wide range of hockey equipment, personalized fittings, and expert advice to enhance the hockey experience for players and fans alike. Our mission is to ensure every customer has access to the best gear and knowledge to excel on the ice.</p>
-      <div class="grid grid-cols-3 gap-4 mb-0 p-8">
-        <div class="flex flex-col items-center text-center">
-          <img
-            src="tshirt.png"
-            alt="T-Shirt"
-            class="w-32 h-32 mb-2"
-            width="200"
-            height="200"
-            style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-          <h4 class="text-lg font-bold mb-2">Apparel</h4>
-          <p class="text-gray-500 mb-2">Wide array of apparel from our local schools to professional teams.</p>
-        
+<section id="skateSharpening" class="bg-gradient-to-r from-gray-200 via-gray-100 to-gray-100 text-center sm:px-4">
+  <h3 class="text-2xl font-bold mb-0 p-6 sm:text-xl">What We Do</h3>
+  <p class="text-lg mb-6 p-0 sm:text-base">
+    Founded in May 2014, St. Croix Sports is western Wisconsin's leading hockey destination, located at 1830 Webster Street in Hudson, near the Hudson Sports and Civic Center. We specialize in offering a wide range of hockey equipment, personalized fittings, and expert advice to enhance the hockey experience for players and fans alike. Our mission is to ensure every customer has access to the best gear and knowledge to excel on the ice.
+  </p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-0 p-8">
+    <div class="flex flex-col items-center text-center">
+      <img src="tshirt.png" alt="T-Shirt" class="w-32 h-32 mb-2" width="200" height="200" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+      <h4 class="text-lg font-bold mb-2">Apparel</h4>
+      <p class="text-gray-500 mb-2">Wide array of apparel from our local schools to professional teams.</p>
+    </div>
 
-        </div>
+    <div class="flex flex-col items-center text-center">
+      <img src="hockey-player.png" alt="Hockey Player" class="w-32 h-32 mb-2" width="200" height="200" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+      <h4 class="text-lg font-bold mb-2">Hockey Gear</h4>
+      <p class="text-gray-500 mb-2">Everything you need, Helmets, Skates, Sticks and more...</p>
+    </div>
+    <div class="flex flex-col items-center text-center">
+      <img src="maintenance.png" alt="Hockey Skates" class="w-32 h-32 mb-2" width="200" height="200" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+      <h4 class="text-lg font-bold mb-2">Skate Maintenence</h4>
+      <p class="text-gray-500 mb-2">Sharpenings, Rivets, and Rust Removal</p>
+    </div>
+  </div>
+</section>
 
-        <div class="flex flex-col items-center text-center">
-          <img
-            src="hockey-player.png"
-            alt="Hockey Player"
-            class="w-32 h-32 mb-2"
-            width="200"
-            height="200"
-            style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-          <h4 class="text-lg font-bold mb-2">Hockey Gear</h4>
-          <p class="text-gray-500 mb-2">Everything you need, Helmets, Skates, Sticks and more...</p>
-
-        </div>
-        <div class="flex flex-col items-center text-center">
-          <img
-            src="maintenance.png"
-            alt="Hockey Skates"
-            class="w-32 h-32 mb-2"
-            width="200"
-            height="200"
-            style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-          <h4 class="text-lg font-bold mb-2">Skate Maintenence</h4>
-          <p class="text-gray-500 mb-2">Sharpenings, Rivets, and Rust Removal</p>
-
-        </div>
-        </div>
-    </section>
 
 <section id=carousel class="p-20">
   <div class="images glide">
@@ -167,51 +121,28 @@
 </section>
 
 
-    <section id="skateSharpening" class="bg-gradient-to-l from-gray-200 via-gray-100 to-gray-100...">
-      <h3 class="text-2xl font-bold mb-8 p-8 text-center">Skate Sharpenings</h3>
-      <div class="grid grid-cols-3 gap-4 p-10">
-        <div class="flex flex-col items-center text-center">
-          <img
-            src="skates.png"
-            alt="Hockey Skates"
-            class="w-32 h-32 mb-2"
-            width="200"
-            height="200"
-            style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-          <h4 class="text-lg font-bold mb-2">Standard Sharpening</h4>
-          <p class="text-gray-500 mb-2">$8</p>
+<section id="skateSharpening" class="bg-gradient-to-l from-gray-200 via-gray-100 to-gray-100 sm:px-4">
+  <h3 class="text-2xl font-bold mb-8 p-8 text-center sm:text-xl sm:p-4">Skate Sharpenings</h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-10 sm:p-4">
+    <div class="flex flex-col items-center text-center">
+      <img src="skates.png" alt="Hockey Skates" class="w-32 h-32 mb-2" width="200" height="200" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+      <h4 class="text-lg font-bold mb-2">Standard Sharpening</h4>
+      <p class="text-gray-500 mb-2">$8</p>
+    </div>
 
-        </div>
+    <div class="flex flex-col items-center text-center">
+      <img src="recovery.png" alt="Hockey Stick" class="w-32 h-32 mb-2" width="200" height="200" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+      <h4 class="text-lg font-bold mb-2">New/Restorative Sharpening</h4>
+      <p class="text-gray-500 mb-2">$20 **For rusty blades**</p>
+    </div>
+    <div class="flex flex-col items-center text-center">
+      <img src="punch-card.png" alt="Hockey Skates" class="w-32 h-32 mb-2" width="200" height="200" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+      <h4 class="text-lg font-bold mb-2">Punch Card</h4>
+      <p class="text-gray-500 mb-2">$40 **Includes 6 sharpenings**</p>
+    </div>
+  </div>
+</section>
 
-        <div class="flex flex-col items-center text-center">
-          <img
-            src="recovery.png"
-            alt="Hockey Stick"
-            class="w-32 h-32 mb-2"
-            width="200"
-            height="200"
-            style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-          <h4 class="text-lg font-bold mb-2">New/Restorative Sharpening </h4>
-          <p class="text-gray-500 mb-2">$20 **For rusty blades**</p>
-
-        </div>
-        <div class="flex flex-col items-center text-center">
-          <img
-            src="punch-card.png"
-            alt="Hockey Skates"
-            class="w-32 h-32 mb-2"
-            width="200"
-            height="200"
-            style="aspect-ratio: 200 / 200; object-fit: cover;"
-          />
-          <h4 class="text-lg font-bold mb-2">Punch Card</h4>
-          <p class="text-gray-500 mb-2">$40 **Includes 6 sharpenings**</p>
-
-        </div>
-        </div>
-    </section>
 
 
 
@@ -226,20 +157,20 @@
 
 
 
-    <section id="location" class="bg-gradient-to-r from-gray-200 via-gray-100 to-gray-100 p-20 pb-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 h-auto">
-        <div class="mb-4">
-          <h3 class="text-2xl font-bold mb-4">Where we are located</h3>
-          <p class="text-lg mb-4">We are conveniently located near the Hudson Hockey rink in Hudson, Wi!</p>
-          <p class="text-sm mb-1">Our address is 1830 Webster St, Hudson Wi, 54016</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.2038237637157!2d-92.73419092336594!3d44.959850971070175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7e1d1a2b24699%3A0x82df48e48feb4065!2sSt.%20Croix%20Sports!5e0!3m2!1sen!2sus!4v1707435936149!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="mb-4">
-          <h3 class="text-2xl font-bold mb-4">Store Hours</h3>
-          <p class="text-lg mb-2">Our hours are designed to fit most schedules!</p>
-          <p class="text-sm mb-2">**Hours are subject to change, call the store to confirm!**</p>
-          <table class="w-full border-collapse text-left">
-            <thead>
+ <section id="location" class="bg-gradient-to-r from-gray-200 via-gray-100 to-gray-100 p-6 sm:p-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 h-auto">
+    <div class="mb-4">
+      <h3 class="text-2xl font-bold mb-4 sm:text-xl">Where we are located</h3>
+      <p class="text-lg mb-4 sm:text-base">We are conveniently located near the Hudson Hockey rink in Hudson, Wi!</p>
+      <p class="text-sm mb-1">Our address is 1830 Webster St, Hudson Wi, 54016</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.2038237637157!2d-92.73419092336594!3d44.959850971070175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7e1d1a2b24699%3A0x82df48e48feb4065!2sSt.%20Croix%20Sports!5e0!3m2!1sen!2sus!4v1707435936149!5m2!1sen!2sus" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="mb-4">
+      <h3 class="text-2xl font-bold mb-4 sm:text-xl">Store Hours</h3>
+      <p class="text-lg mb-2 sm:text-base">Our hours are designed to fit most schedules!</p>
+      <p class="text-sm mb-2">**Hours are subject to change, call the store to confirm!**</p>
+      <table class="w-full border-collapse text-left">
+                    <thead>
               <tr>
                 <th>Day of the Week</th>
                 <th>Store Hours</th>
@@ -275,10 +206,11 @@
                 <td>9:00 AM - 4:00 PM</td>
               </tr>
             </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
+      </table>
+    </div>
+  </div>
+</section>
+
     
 
     <section class="text-gray-800 p-20  text-center flex flex-col items-center" >
