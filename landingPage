@@ -1,0 +1,165 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/iHAC0LEy1Te
+-->
+
+<main class="flex flex-col min-h-screen">
+  <header class="flex items-center justify-between p-6 bg-gray-900 text-white">
+    <h1 class="text-2xl font-bold">Hockey Store</h1>
+    <nav class="flex gap-4">
+      <a class="hover:underline" href="#">
+        Home
+      </a>
+      <a class="hover:underline" href="#">
+        Catalog
+      </a>
+      <a class="hover:underline" href="#">
+        Equipment
+      </a>
+      <a class="hover:underline" href="#">
+        Apparel
+      </a>
+      <a class="hover:underline" href="#">
+        Accessories
+      </a>
+      <a class="hover:underline" href="#">
+        Skate Sharpening
+      </a>
+      <a class="hover:underline" href="#">
+        About Us
+      </a>
+      <a class="hover:underline" href="#">
+        Contact
+      </a>
+    </nav>
+  </header>
+  <section class="flex flex-col items-center justify-center bg-gray-800 text-white text-center p-20">
+    <h2 class="text-4xl font-bold mb-4">Welcome to Hockey Store</h2>
+    <p class="text-lg mb-8">Your one-stop shop for all your hockey needs.</p>
+    <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-white text-black px-8 py-2 rounded">
+      Explore Products
+    </button>
+  </section>
+  <section class="p-6">
+    <h3 class="text-2xl font-bold mb-4">See Our Store</h3>
+    <div class="flex overflow-x-scroll gap-4">
+      <img
+        src="/placeholder.svg"
+        alt="Store Image 1"
+        class="w-64 h-64 rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio: 200 / 200; object-fit: cover;"
+      />
+      <img
+        src="/placeholder.svg"
+        alt="Store Image 2"
+        class="w-64 h-64 rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio: 200 / 200; object-fit: cover;"
+      />
+      <img
+        src="/placeholder.svg"
+        alt="Store Image 3"
+        class="w-64 h-64 rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio: 200 / 200; object-fit: cover;"
+      />
+      <img
+        src="/placeholder.svg"
+        alt="Store Image 4"
+        class="w-64 h-64 rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio: 200 / 200; object-fit: cover;"
+      />
+    </div>
+  </section>
+  <section class="p-6">
+    <h3 class="text-2xl font-bold mb-4">Featured Products</h3>
+    <div class="grid grid-cols-3 gap-4">
+      <div class="flex flex-col items-center text-center">
+        <img
+          src="/placeholder.svg"
+          alt="Hockey Skates"
+          class="w-32 h-32 mb-2"
+          width="200"
+          height="200"
+          style="aspect-ratio: 200 / 200; object-fit: cover;"
+        />
+        <h4 class="text-lg font-bold mb-2">Hockey Skates</h4>
+        <p class="text-gray-500 mb-2">$150</p>
+        <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-black text-white px-4 py-2 rounded">
+          Buy Now
+        </button>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <img
+          src="/placeholder.svg"
+          alt="Hockey Stick"
+          class="w-32 h-32 mb-2"
+          width="200"
+          height="200"
+          style="aspect-ratio: 200 / 200; object-fit: cover;"
+        />
+        <h4 class="text-lg font-bold mb-2">Hockey Stick</h4>
+        <p class="text-gray-500 mb-2">$120</p>
+        <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-black text-white px-4 py-2 rounded">
+          Buy Now
+        </button>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <img
+          src="/placeholder.svg"
+          alt="Hockey Helmet"
+          class="w-32 h-32 mb-2"
+          width="200"
+          height="200"
+          style="aspect-ratio: 200 / 200; object-fit: cover;"
+        />
+        <h4 class="text-lg font-bold mb-2">Hockey Helmet</h4>
+        <p class="text-gray-500 mb-2">$80</p>
+        <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-black text-white px-4 py-2 rounded">
+          Buy Now
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-200 p-6">
+    <h3 class="text-2xl font-bold mb-4">Ongoing Promotions</h3>
+    <p class="text-lg mb-4">Get 20% off your first order with the code FIRST20</p>
+    <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-black text-white px-8 py-2 rounded">
+      Shop Now
+    </button>
+  </section>
+  <footer class="bg-gray-900 text-white p-6">
+    <nav class="flex gap-4">
+      <a class="hover:underline" href="#">
+        Home
+      </a>
+      <a class="hover:underline" href="#">
+        Catalog
+      </a>
+      <a class="hover:underline" href="#">
+        Equipment
+      </a>
+      <a class="hover:underline" href="#">
+        Apparel
+      </a>
+      <a class="hover:underline" href="#">
+        Accessories
+      </a>
+      <a class="hover:underline" href="#">
+        Skate Sharpening
+      </a>
+      <a class="hover:underline" href="#">
+        About Us
+      </a>
+      <a class="hover:underline" href="#">
+        Contact
+      </a>
+    </nav>
+  </footer>
+</main>
