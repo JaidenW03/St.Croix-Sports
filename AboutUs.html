@@ -21,26 +21,37 @@
               </svg>
           </button>
       </div>
-      <nav id="menu" class="hidden sm:flex flex-col sm:flex-row gap-4 items-center">
-          <a class="hover:underline" href="https://www.Instagram.com/stcroixsports" target="_blank" rel="noopener noreferrer">
-              <img src="Instagram.png" alt="Instagram icon" class="mb-2" width="20" height="20" style="aspect-ratio: 200 / 200; object-fit: cover;" />
-          </a>
-          <a class="hover:underline" href="https://www.Facebook.com/stcroixsports" target="_blank" rel="noopener noreferrer">
-              <img src="Facebook.png" alt="Facebook Icon" class="mb-2" width="20" height="20" style="aspect-ratio: 200 / 200; object-fit: cover;" />
-          </a>
-          <a class="hover:underline" href="index.html">Home</a>
-          <a class="hover:underline" href="SkateSharpening.html">Skate Sharpening</a>
-          <a class="hover:underline" href="AboutUs.html">About Us/Contact</a>
-      </nav>
-  </header>
-  <script>
-      const menuToggle = document.getElementById('menu-toggle');
-      const menu = document.getElementById('menu');
-  
-      menuToggle.addEventListener('click', () => {
-          menu.classList.toggle('hidden');
-      });
-  </script>
+       <nav id="menu" class="flex flex-col sm:flex-row gap-4 items-center">
+    <div class="flex gap-4 mb-2">
+        <a class="hover:underline" href="https://www.Instagram.com/stcroixsports" target="_blank" rel="noopener noreferrer">
+            <img src="Instagram.png" alt="Instagram icon" width="20" height="20" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+        </a>
+        <a class="hover:underline" href="https://www.Facebook.com/stcroixsports" target="_blank" rel="noopener noreferrer">
+            <img src="Facebook.png" alt="Facebook Icon" width="20" height="20" style="aspect-ratio: 200 / 200; object-fit: cover;" />
+        </a>
+    </div>
+
+    <div id="menu-links" class="hidden sm:flex flex-col sm:flex-row gap-4 w-full">
+        <a class="hover:underline" href="index.html">Home</a>
+        <a class="hover:underline" href="SkateSharpening.html">Skate Sharpening</a>
+        <a class="hover:underline" href="AboutUs.html">About Us/Contact</a>
+    </div>
+</nav>
+</header>
+<script>
+   document.getElementById('menu-toggle').addEventListener('click', function() {
+    var menuLinks = document.getElementById('menu-links');
+    if (menuLinks.classList.contains('hidden')) {
+        menuLinks.classList.remove('hidden');
+        menuLinks.classList.add('flex');
+    } else {
+        menuLinks.classList.add('hidden');
+        menuLinks.classList.remove('flex');
+    }
+});
+
+</script>
+
   <!-- Owner Section -->
   <section id="shadow" class="bg3-hockey-store text-white justify-center text-center">
     <h2 class=" text-5xl font-bold mb-4 text-center">About Us</h2>
